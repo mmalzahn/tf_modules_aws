@@ -1,3 +1,6 @@
+terraform {
+  required_version = "> 0.11.0"
+}
 data "terraform_remote_state" "baseInfra" {
   backend = "s3"
 
